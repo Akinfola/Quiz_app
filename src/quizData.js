@@ -7,7 +7,7 @@ const quizData = [
     },
     {
       id: 2,
-      question: "Which programming language is used for web development?",
+      question: "Which programming language is best used for font-end web development?",
       options: ["Python", "JavaScript", "C#", "Java"],
       answer: "JavaScript",
     },
