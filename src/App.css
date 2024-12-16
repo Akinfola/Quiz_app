@@ -1,0 +1,65 @@
+/* Question card container */
+.question-card {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Timer container */
+.timer-container {
+  width: 100%; /* Full width of the question card */
+  height: 10px; /* Thickness of the timer bar */
+  background-color: #ddd; /* Background for the remaining time */
+  border-radius: 5px; /* Smooth edges */
+  margin-bottom: 10px; /* Space below the timer */
+  overflow: hidden; /* Prevent overflow when the bar shrinks */
+}
+
+/* Timer bar */
+.timer-bar {
+  height: 100%; /* Full height of the container */
+  transition: width 1s linear; /* Smooth shrinking effect */
+}
+
+/* Options buttons */
+.options button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options button:hover:not(:disabled) {
+  background-color: #e0e0e0;
+}
+
+/* Disabled buttons */
+.options button:disabled {
+  cursor: not-allowed;
+}
+
+/* Next button */
+.next-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #45a049;
+}
